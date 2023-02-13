@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class details{
+class lab1{
     public static void main(String[] args){
         System.out.println("Enter the Employee details :");
         Scanner scan = new Scanner(System.in);
