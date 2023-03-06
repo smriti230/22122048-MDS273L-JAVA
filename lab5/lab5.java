@@ -47,14 +47,14 @@ public class lab5 {
             if( alphabet >= 'a' && alphabet <= 'z'){
                 alphabet = (char) (alphabet - shift);
                 if( alphabet > 'z'){
-                    alphabet = (char)(alphabet - 'a'-'z'-1);
+                    alphabet = (char)(alphabet - 'a'-'z'+1);
                 }
                 PlainText = PlainText + alphabet ;
             }
             else if( alphabet >= 'A' && alphabet <= 'Z'){
                 alphabet = (char) (alphabet - shift);
                 if( alphabet > 'Z'){
-                    alphabet = (char)(alphabet- 'A'-'Z'-1); 
+                    alphabet = (char)(alphabet- 'A'-'Z'+1); 
                 }
                 PlainText = PlainText + alphabet ;
             }
